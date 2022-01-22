@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // constant variable
+        let radius = 5;
+        const pi = 3.14;
+        pi = 3.25;
+        // radius = 10;
+        let area;
+        area = pi*radius*radius;
+        console.log(area);
+
+        // Data Type
+        //[1] number
+        let j = 25;
+        let k = 5/0;
+        let l = 0xff;
+        let m = 5/-0;
+        let n = 15_00_00_00_00_00_000;
+        let o = 1000000000000000000n;
+        console.log(j);
+        console.log(k);
+        console.log(l);
+        console.log(m);
+        console.log(n);
+        console.log(o + 2n);        
+        //console.log(o + 2);
+        console.log(Number.MAX_VALUE);
+        console.log(Number.MIN_VALUE);
+
+        //[2] string
+        let a = 'meet';
+        let b = 'kadiya';
+        let c = a + b;
+        console.log(c); 
+        //console.log(a + " "+ b); 
+
+        //[3] boolean
+        let bool= 5>6;
+        console.log(bool);
+        let bool1= 5<6;
+        console.log(bool1);
+
+        // Type Casting
+        let d = String(34);
+        console.log(d, typeof(d));
+       
+        let e = Number('meet');
+        console.log(e,(typeof e));
+        
+        let boolvar = String(true);
+        //console.log(typeof boolvar);
+        console.log(boolvar,(typeof boolvar));
+
+        let date = String(new Date());
+        //console.log(typeof date);
+        console.log(date,(typeof date)); 
+    </script>
+</body>
+</html>
